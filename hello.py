@@ -227,220 +227,381 @@
 # my_list.pop("banana")
 # print(my_list)
 
-my_dict = {
-     "name":"scorpio",
-     "Brand":"mahinra",
-     "manifacture":"2025",
-     "geartype":"automatic",
-     "airbags":"six"
-}
-print(my_dict["Brand"])
+# my_dict = {
+#      "name":"scorpio",
+#      "Brand":"mahinra",
+#      "manifacture":"2025",
+#      "geartype":"automatic",
+#      "airbags":"six"
+# }
+# print(my_dict["Brand"])
 
 
 
-my_dict = {
-    "Name":"Rohith",
-    "college":"Gitam",
-    "stream":"B.tech",
-    "Branch":"cse",         
-}
-my_dict.update({"Branch":"computer sceince"})
-print(my_dict)
+# my_dict = {
+#     "Name":"Rohith",
+#     "college":"Gitam",
+#     "stream":"B.tech",
+#     "Branch":"cse",         
+# }
+# my_dict.update({"Branch":"computer sceince"})
+# print(my_dict)
 
 
-my_dict = {
-    "Name":"Rohith.B",
-    "date of Birth":"2001",
-    "regd no":"VU21CSEN0101563",
-    "Block":"ICT",
-    "Branch":"cse"
-}
-my_dict["year"] = 2002
-print(my_dict)
+# my_dict = {
+#     "Name":"Rohith.B",
+#     "date of Birth":"2001",
+#     "regd no":"VU21CSEN0101563",
+#     "Block":"ICT",
+#     "Branch":"cse"
+# }
+# my_dict["year"] = 2002
+# print(my_dict)
 
 
-my_dict = {
-     "Name":"Rohith.B",
-    "date of Birth":"2001",
-    "regd no":"VU21CSEN0101563",
-}
-my_dict.update({"colour":"red"})
-print(my_dict)
+# my_dict = {
+#      "Name":"Rohith.B",
+#     "date of Birth":"2001",
+#     "regd no":"VU21CSEN0101563",
+# }
+# my_dict.update({"colour":"red"})
+# print(my_dict)
 
 
-my_dict = {
-    "model":"2025",
-    "year":"2024",
-    "manifacturing":"toyato",
-    "Build quality":"strong", 
-}
-my_dict.pop("model")
-print(my_dict)
+# my_dict = {
+#     "model":"2025",
+#     "year":"2024",
+#     "manifacturing":"toyato",
+#     "Build quality":"strong", 
+# }
+# my_dict.pop("model")
+# print(my_dict)
 
 
-my_dict = {
-    "Platfrom":"amazon",
-    "unit sold":2,
-    "cost per piece":1200,
-}
-for x in my_dict.values():
-    print(x)
+# my_dict = {
+#     "Platfrom":"amazon",
+#     "unit sold":2,
+#     "cost per piece":1200,
+# }
+# for x in my_dict.values():
+#     print(x)
     
     
     
-my_dict ={
-    "dress type":"shirt",
-    "hsn code":"1232",
-    "company":"super sauda",
-    "trade unit":26    
-}
-my_dict=my_dict.copy()
-print(my_dict)
+# my_dict ={
+#     "dress type":"shirt",
+#     "hsn code":"1232",
+#     "company":"super sauda",
+#     "trade unit":26    
+# }
+# my_dict=my_dict.copy()
+# print(my_dict)
 
-myfamily = {
-  "child1" : {
-    "name" : "Emil",
-    "year" : 2004
-  },
-  "child2" : {
-    "name" : "Tobias",
-    "year" : 2007
-  },
-  "child3" : {
-    "name" : "Linus",
-    "year" : 2011
-  }
-}
+# myfamily = {
+#   "child1" : {
+#     "name" : "Emil",
+#     "year" : 2004
+#   },
+#   "child2" : {
+#     "name" : "Tobias",
+#     "year" : 2007
+#   },
+#   "child3" : {
+#     "name" : "Linus",
+#     "year" : 2011
+#   }
+# }
 
 
-a= 77
-b=80
+# a= 77
+# b=80
 
-if a>b:
-    print("a is greater")
-elif a==b:
-    print("a equals to b ")
-else:
-    print("b is greater than a")
+# if a>b:
+#     print("a is greater")
+# elif a==b:
+#     print("a equals to b ")
+# else:
+#     print("b is greater than a")
     
     
     
-x= 40
+# x= 40
 
-if x>40:
-    print("x is equal")
-elif x != 40:
-    print("x is not equal to 40")
-else:
-    print("x is not at all equal")    
+# if x>40:
+#     print("x is equal")
+# elif x != 40:
+#     print("x is not equal to 40")
+# else:
+#     print("x is not at all equal")    
     
     
 
 
-a= float(input("enter first number:"))
-b= float(input("enter a second number:"))
+# a= float(input("enter first number:"))
+# b= float(input("enter a second number:"))
 
-if a > b:
-    print("Maximum is a")
-elif  b>a:
-    print("maximum is b")
-else:
-    print("Both are equal")
+# if a > b:
+#     print("Maximum is a")
+# elif  b>a:
+#     print("maximum is b")
+# else:
+#     print("Both are equal")
 
 
-a=float(input("enter  first number"))
-b=float(input("enter a second number"))
-c=float(input("enter a third number:"))
+# a=float(input("enter  first number"))
+# b=float(input("enter a second number"))
+# c=float(input("enter a third number:"))
 
-if  a>b:
-    print("maximum is a")
-elif b>a:
-    print("maximum is b")
-elif c<a:
-    print("maximum is c")
+# if  a>b:
+#     print("maximum is a")
+# elif b>a:
+#     print("maximum is b")
+# elif c<a:
+#     print("maximum is c")
     
-else:
-    print("all are not equal")
-    
-    
-n= float(input("enter a number"))
-
-if n >0:
-    print("positive")
-elif n <0:
-    print("negative")
-else:
-    print("zero")
-    
-
-n = int(input("Enter a number: "))
-
-if n % 5 == 0 and n % 11 == 0:
-    print("Divisible by both 5 and 11")
-else:
-    print("Not divisible by 5 and 11 ")
-
-
-
-
-n = int(input("Enter a number: "))
-
-if n % 2 == 0:
-    print("Even")
-else:
-    print("Odd")
-
-
-n = int(input("enter a number"))
-
-if n % 2 ==0:
-    print("even")
-else:
-    print("odd")
-    
-n = int(input("enter s fisrt number"))
-if n %2 ==0:
-    print("even")
-else:
-    print("odd")
+# else:
+#     print("all are not equal")
     
     
-year = int(input("Enter a year: "))
+# n= float(input("enter a number"))
 
-if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
-    print("Leap year")
-else:
-    print("Not a leap year")
+# if n >0:
+#     print("positive")
+# elif n <0:
+#     print("negative")
+# else:
+#     print("zero")
     
-year = int(input("enter a year"))
 
-if (year % 400 ==0) or (year %4 ==0  and year %100 !=0):
-    print("leap year")
-else:
-    print("not a leap year")
+# n = int(input("Enter a number: "))
 
-
-year = int(input("enter a year"))
-
-if (year %400 ==0) or (year %4 ==0 and year %100 !=0):
-    print("leap year")
-else:
-    print("not a leap year")
+# if n % 5 == 0 and n % 11 == 0:
+#     print("Divisible by both 5 and 11")
+# else:
+#     print("Not divisible by 5 and 11 ")
 
 
-s = input("Enter a sentence: ")
-words = s.split()      
-words.reverse()        
 
-result = " ".join(words)
+
+# n = int(input("Enter a number: "))
+
+# if n % 2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+
+# n = int(input("enter a number"))
+
+# if n % 2 ==0:
+#     print("even")
+# else:
+#     print("odd")
+    
+# n = int(input("enter s fisrt number"))
+# if n %2 ==0:
+#     print("even")
+# else:
+#     print("odd")
+    
+    
+# year = int(input("Enter a year: "))
+
+# if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+#     print("Leap year")
+# else:
+#     print("Not a leap year")
+    
+# year = int(input("enter a year"))
+
+# if (year % 400 ==0) or (year %4 ==0  and year %100 !=0):
+#     print("leap year")
+# else:
+#     print("not a leap year")
+
+
+# year = int(input("enter a year"))
+
+# if (year %400 ==0) or (year %4 ==0 and year %100 !=0):
+#     print("leap year")
+# else:
+#     print("not a leap year")
+
+
+# s = input("Enter a sentence: ")
+# words = s.split()      
+# words.reverse()        
+
+# result = " ".join(words)
+# print(result)
+
+
+# s = input("Enter a sentence: ")
+# words = s.split()      
+# words.reverse()        
+
+# result = " ".join(words)
+# print(result)
+
+
+# R = input("entert a word")
+# words = R.split()
+# words.reverse()
+
+# result = " ".join(words)
+# print(result)
+
+# s = "python programming"
+# words = s.split()ss
+# result = []
+
+# for w in words:
+#     result.append(w[::-1])
+
+# print(" ".join(result))
+
+# second assignmet
+
+# r = "rohith programming"
+# words = r.split()
+# result = []
+
+# for w in words:
+#     result.append(w[::-1])
+# print(" ".join(result))
+
+
+# s1 = "teja"
+# s2 = "sri"
+# result = ""
+# i = 0
+
+# while i < len(s1) or i < len(s2):
+#     if i < len(s1):
+#         result += s1[i]
+#     if i < len(s2):
+#         result += s2[i]
+#     i += 1
+
+# print(result)
+
+
+s1 = "rohith"
+s2 = "bonthu"
+result = ""
+i = 0
+
+while i < len(s1) or i < len(s2):
+    if i < len(s1):
+        result += s1[i]
+    if i < len (s2):
+        result += s2[i]
+    i += 1
+    
+s1 = "rohith"
+s2 = "bonthu"
+result = ""
+i = 0
+while i <len(s1) or i < len(s2):
+    if i < len(s1):
+        result += s1[i]
+    if i < len (s2):
+        result += s2 [i]
+    i += 1 
+    
+
+s1 = "bonthu"
+s2 ="rohith"
+result = ""
+i  = 0
+while i <len(s1) or i <len(s2):
+    if i < len(s1):
+        result += s1[i]
+    if i < len (s2):
+        result += s2 [i]
+    i += 1
+    
+    ########
+    
+    s = "B4A1D3"
+letters = []
+numbers = []
+
+for ch in s:
+    if ch.isalpha():
+        letters.append(ch)
+    else:
+        numbers.append(ch)
+
+letters.sort()
+numbers.sort()
+
+print("".join(letters + numbers))
+
+
+
+s="Rad368"
+
+letters = []
+numbers = []
+
+for ch in s:
+    if ch.isalpha():
+        letters.append(ch)
+    else:
+        numbers.append(ch)
+    
+    letters.sort()
+    numbers.sort()
+print("".join(letters + numbers))
+
+
+s="64ggftd"
+
+letters = []
+numbers = []
+
+for ch in s:
+    if ch.isalpha():
+        letters.append(ch)
+    else:
+        numbers.append(ch)
+    
+    letters.sort()
+    numbers.sort()
+print(".join(letters+numbers)")
+
+
+s = "a4b3c2"
+result = ""
+
+for i in range(0, len(s), 2):
+    letter = s[i]
+    num = int(s[i+1])
+    result += letter * num
+
 print(result)
 
 
-s = input("Enter a sentence: ")
-words = s.split()      
-words.reverse()        
 
-result = " ".join(words)
+s = "534fdedrr5"
+result = ""
+
+for i in range(0,len(s),2):
+    letter = s[i]
+    num = int(s[i+1])
+    result += letter *num
+    
 print(result)
 
-my_dict
+
+s = "63t47tgget"
+result = ""
+
+for i in range(0,len(s),2):
+    letter = s[i]
+    num = int(s[i+1])
+    result += letter *num
+
+print(result)
+
