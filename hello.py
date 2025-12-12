@@ -706,42 +706,98 @@ print("".join(chars))
 
 ###
 
-result = []
 
-for i in range(1, 21, 5):
-    group = [i, i+1, i+2, i+3, i+4]
-    result.append(group)
+# 10.Write a Python program to check if each number is prime in a given list of numbers. Return True if all numbers are prime otherwise False.
+# Sample Data:
+# ([0, 3, 4, 7, 9]) -> False
+# ([3, 5, 7, 13]) -> True
+# ([1, 5, 3]) -> False
 
-print(result)
-
-##infinite loop
-i = 1
-while True:
-    print(i)
-    i += 1
-    
-    
-    ###
-    
-    lst = [3,5,7,13]
-
-def is_prime(n):
-    if n < 2:
-        return False
-    for i in range(2, n):
-        if n % i == 0:
-            return False
-    return True
-
-all_prime = True
-
-for x in lst:
-    if not is_prime(x):
-        all_prime = False
+l10=[3,5,7,13]
+for i in l10:
+    if i<2:
+        print("not an prime ")
         break
+    for i in l10:
+        if i%2==0:
+            print("not an prime")
+            break     
+else:
+     print("prime")
 
-print(all_prime)
 
     
+    ###multiply the list numbers
+my_list=[4,5,8,2,3,1,2,3]
+for i in my_list:
+    x2=x2*i
+print(my_list)
+
+#####program to remove duplicate items in list
+
+my_list=[3,3,4,4,2,2,8,9,23,4]
+my_list2=[]
+for i in my_list:
+    if i not in my_list2:
+        my_list2.append(i)
+print(my_list2)
+
+
+########take two lists and return true
+
+my_list1=[4,2,5,6,7,77]
+my_list2=[1,3,5,67,7]
+for i in my_list1:
+    if i in my_list2:
+        print("true")
+        break
+else:
+    print("diff")        
     
+#removing list operations using pop function
+
+    my_list=["mango","Banana","apple","Dragon fruit","cherry"]
+    my_list.pop(1)
+    my_list.pop(4)
+    print(my_list)
     
+### Python program to print the numbers of a specified list after removing even
+
+my_list1 = [3,5,7,7,8,9,2,1,4,6]
+my_list2 = []
+
+for i in my_list1:       
+    if i % 2 != 0:      
+        my_list2.append(i)
+
+print(my_list2)
+
+
+##list of characters into string
+
+
+my_list1 = [2,4,5,6,7,8,4,5,7,83]
+n= " ".join(17)
+print(n)
+print(type(n)) 
+
+
+my_list1=["banana","apple","jackfruit","mango"]
+my_list2=["banana","apple","jackfruit","mango"]
+for i in my_list1:
+    if i in my_list2:
+        print("true")
+        break
+    else:
+        print("false")
+        break
+        
+my_list1=[4,5,6,7,8,9,9,0,]
+my_list2=[7,4,3,3,5,6]
+for i in my_list1:
+    if i in my_list2:
+        print("true")
+        break
+    else:
+        print("false")
+        break
