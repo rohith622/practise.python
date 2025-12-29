@@ -1013,4 +1013,57 @@ def square(n):
      return n*n
 result = square(5)
 print("square of 5 is:", result)
-     
+
+def maximum(a,b):
+    if a > b:
+        return a
+    else:
+        return b
+    
+maximum(10,20)
+
+
+def is_palindrome(s):
+    if s == s[::-1]:
+        return "Palindrome"
+    else:
+        return "Not Palindrome"
+
+print(is_palindrome("madam"))
+print(is_palindrome("python"))
+
+
+def is_palindrome(s):
+    if s == s[::-1]:
+        return "palindrome"
+    else:
+        return "not palindrome"
+print(is_palindrome("madam"))
+print(is_palindrome("python"))
+
+
+def is_palindrome(s):
+    if s == s[::-1]:
+        return "palindrome"
+    else:
+        return "not palindrome"
+    
+print(is_palindrome("radar"))
+print(is_palindrome("hello"))
+
+
+    
+def is_palindrome(s):
+    if s == s[::-1]:
+        return "palindrome"
+    else:
+        return "not palindrome"
+print(is_palindrome("level"))
+print(is_palindrome("world"))  
+
+
+
+
+
+
+
