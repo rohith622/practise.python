@@ -869,76 +869,90 @@
     
     
 #checking number is positive  or not
-num = float(input("Enter a number: "))
+# num = float(input("Enter a number: "))
 
-if num > 0:
-    print("The number is Positive")
-elif num < 0:
-    print("The number is Negative")
-else:
-    print("The number is Zero")
+# if num > 0:
+#     print("The number is Positive")
+# elif num < 0:
+#     print("The number is Negative")
+# else:
+#     print("The number is Zero")
     
     
-    ########
+#     ########
     
-num = float(input("enter a number:"))
-if num >0:
-    print("the number is positive")
-elif num <0:
-    print("the number is negative")
-else:
-    print("the  number is zero")
-    
-    
-
-#check number whether  number is  divisible by 5 and 11 or not
-
-num = int(input("enter a number:"))
-if num % 5 ==0 and num %11 ==0:
-    print("the number is divosble  by 5 and 11")
-
-
-#check the number is even or odd    
-num = int(input("enter a number:"))
-if num %2 ==0:
-     print("the number is even")
-elif num %2 !=0:
-    print("the number is odd")
-else:
-    print("invalid input")
-    
-
-num = int(input("enter a number :"))
-if num %2 ==0:
-    print("the number is even")
-elif num %2 !=0:
-    print("the number is odd")
-else:
-    print("invalid input")
+# num = float(input("enter a number:"))
+# if num >0:
+#     print("the number is positive")
+# elif num <0:
+#     print("the number is negative")
+# else:
+#     print("the  number is zero")
     
     
-num = int(input("enter a number:"))
-if num %2 ==0:
-    print("the numbe is even ")
-elif num %2 !=0:
-    print("the number is odd")
-else:
-    print("invalid  input")
+
+# #check number whether  number is  divisible by 5 and 11 or not
+
+# num = int(input("enter a number:"))
+# if num % 5 ==0 and num %11 ==0:
+#     print("the number is divosble  by 5 and 11")
+
+
+# #check the number is even or odd    
+# num = int(input("enter a number:"))
+# if num %2 ==0:
+#      print("the number is even")
+# elif num %2 !=0:
+#     print("the number is odd")
+# else:
+#     print("invalid input")
+    
+
+# num = int(input("enter a number :"))
+# if num %2 ==0:
+#     print("the number is even")
+# elif num %2 !=0:
+#     print("the number is odd")
+# else:
+#     print("invalid input")
+    
+    
+# num = int(input("enter a number:"))
+# if num %2 ==0:
+#     print("the numbe is even ")
+# elif num %2 !=0:
+#     print("the number is odd")
+# else:
+#     print("invalid  input")
 
 
 
-num = int(input("enter a number:"))
+# num = int(input("enter a number:"))
 
-if num %2 ==0:
-    print("the number is even")
-elif num %2!=0:
-    print("the number is odd")
-else:
-    print("invalid input")
+# if num %2 ==0:
+#     print("the number is even")
+# elif num %2!=0:
+#     print("the number is odd")
+# else:
+#     print("invalid input")
 
 
-#check the year is leap year or not
+# #check the year is leap year or not
 
-year () = int(input("enter a year:"))
-if (year %400 ==0) or (year %4 ==0 and year %100 !=0):
-    print("the year is leap year")
+# year () = int(input("enter a year:"))
+# if (year %400 ==0) or (year %4 ==0 and year %100 !=0):
+#     print("the year is leap year")
+    
+    
+def my_function(fname):
+   print(fname + " gitam ")
+
+my_function("university")
+my_function("college")
+
+
+def my_function(fname):
+    print(fname + " college ")
+
+my_function("worst")
+my_function("beaytifull")
