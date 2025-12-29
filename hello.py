@@ -1062,8 +1062,12 @@ print(is_palindrome("level"))
 print(is_palindrome("world"))  
 
 
+def is_values_in_list(value)
+    my_list = [1, 2, 3, 4, 5]
+    if value in my_list:
+        return True
+    else:
+        return False    
+print(is_values_in_list(3))
 
-
-
-
-
+ 
