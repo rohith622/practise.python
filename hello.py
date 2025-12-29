@@ -944,15 +944,73 @@
 #     print("the year is leap year")
     
     
-def my_function(fname):
-   print(fname + " gitam ")
+# def my_function(fname):
+#    print(fname + " gitam ")
 
+# my_function("university")
+# my_function("college")
+
+
+# def my_function(fname):
+#     print(fname + " college ")
+
+# my_function("worst")
+# my_function("beaytifull")
+
+
+def my_function(fname):
+    print(fname + " pavan ")
+my_function("Bonula")
+my_function("ramu")
+
+
+def my_function(fname):
+    print(fname + " rohith")
+my_function("bonthu")
+my_function("sri")
+
+
+def my_function(fname):
+    print(fname + " hello")
+my_function("rohith")
+my_function("bonthu")
+
+
+
+def my_function(fname):
+    print(fname + " gitam ")
 my_function("university")
 my_function("college")
-
-
 def my_function(fname):
-    print(fname + " college ")
+    print(fname + " pavan ")
+my_function("Bonula")   
 
-my_function("worst")
-my_function("beaytifull")
+
+def even_off(num):
+    if num % 2==0:
+        print("even  number")
+    else:
+        print("odd number")
+        
+even_off(4)
+even_off(10)
+
+
+def add (a,b):
+    print(a+b)
+    
+add(3,10)
+add(7,10) 
+
+def greet():
+    print("Hello, welcome to Python")
+
+greet()
+
+
+
+def square(n):
+     return n*n
+result = square(5)
+print("square of 5 is:", result)
+     
