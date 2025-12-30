@@ -1062,7 +1062,7 @@ print(is_palindrome("level"))
 print(is_palindrome("world"))  
 
 
-def is_values_in_list(value)
+def is_values_in_list(value):
     my_list = [1, 2, 3, 4, 5]
     if value in my_list:
         return True
@@ -1070,4 +1070,34 @@ def is_values_in_list(value)
         return False    
 print(is_values_in_list(3))
 
- 
+
+
+
+def greet(mfunction):
+    print("hello"+ mfunction)
+greet("pavan")
+print("welcome to python")
+greet("rohith")
+print("welcome to gitam university")
+def greet(mfunction):
+    print("hello"+ mfunction)
+greet("pavan")
+print("welcome to python")
+greet("rohith")
+print("welcome to gitam university")       
+
+
+
+
+def my_function():
+  print("Hello from a function")
+
+my_function()
+my_function()
+my_function()
+
+
+
+def my_function():
+    print("hello from a function")
+my_function()
