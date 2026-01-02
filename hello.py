@@ -1101,3 +1101,29 @@ my_function()
 def my_function():
     print("hello from a function")
 my_function()
+
+
+a=int(input("enter a palindrome number "))
+
+if a == a[::-1]:
+    print("the number is palindrome")
+else:
+    print("the number is not a palindrome")
+    
+    
+    a=int(input("enter a even number"))
+    b=int(input("enter a odd number"))
+    
+    if a%2==0:
+        print("the number is even")
+    else:
+        print("the number is odd")
+    
+
+
+a=int(input("enter a even number"))
+b=int(input("enter a odd number"))
+if a%2==0:
+    print("the number is even")
+else:
+    print("the number is odd")
