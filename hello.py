@@ -1127,3 +1127,22 @@ if a%2==0:
     print("the number is even")
 else:
     print("the number is odd")
+    
+    
+    
+numbers = [10, 20, 30, 40, 50]
+
+
+target = 30
+if target in numbers:
+    print("Target found in the list")
+else:
+    print("Target not found in the list")
+    
+    
+numbers = [10,30,50,70,90,110,130]
+target = 70
+if target in numbers:
+    print("target found in the list")
+else:
+    print("target not found in the list")
