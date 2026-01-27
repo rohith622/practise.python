@@ -958,191 +958,276 @@
 # my_function("beaytifull")
 
 
-def my_function(fname):
-    print(fname + " pavan ")
-my_function("Bonula")
-my_function("ramu")
+# def my_function(fname):
+#     print(fname + " pavan ")
+# my_function("Bonula")
+# my_function("ramu")
 
 
-def my_function(fname):
-    print(fname + " rohith")
-my_function("bonthu")
-my_function("sri")
+# def my_function(fname):
+#     print(fname + " rohith")
+# my_function("bonthu")
+# my_function("sri")
 
 
-def my_function(fname):
-    print(fname + " hello")
-my_function("rohith")
-my_function("bonthu")
+# def my_function(fname):
+#     print(fname + " hello")
+# my_function("rohith")
+# my_function("bonthu")
 
 
 
-def my_function(fname):
-    print(fname + " gitam ")
-my_function("university")
-my_function("college")
-def my_function(fname):
-    print(fname + " pavan ")
-my_function("Bonula")   
+# def my_function(fname):
+#     print(fname + " gitam ")
+# my_function("university")
+# my_function("college")
+# def my_function(fname):
+#     print(fname + " pavan ")
+# my_function("Bonula")   
 
 
-def even_off(num):
-    if num % 2==0:
-        print("even  number")
-    else:
-        print("odd number")
+# def even_off(num):
+#     if num % 2==0:
+#         print("even  number")
+#     else:
+#         print("odd number")
         
-even_off(4)
-even_off(10)
+# even_off(4)
+# even_off(10)
 
 
-def add (a,b):
-    print(a+b)
+# def add (a,b):
+#     print(a+b)
     
-add(3,10)
-add(7,10) 
+# add(3,10)
+# add(7,10) 
 
-def greet():
-    print("Hello, welcome to Python")
+# def greet():
+#     print("Hello, welcome to Python")
 
-greet()
+# greet()
 
 
 
-def square(n):
-     return n*n
-result = square(5)
-print("square of 5 is:", result)
+# def square(n):
+#      return n*n
+# result = square(5)
+# print("square of 5 is:", result)
 
-def maximum(a,b):
-    if a > b:
-        return a
-    else:
-        return b
+# def maximum(a,b):
+#     if a > b:
+#         return a
+#     else:
+#         return b
     
-maximum(10,20)
+# maximum(10,20)
 
 
-def is_palindrome(s):
-    if s == s[::-1]:
-        return "Palindrome"
-    else:
-        return "Not Palindrome"
+# def is_palindrome(s):
+#     if s == s[::-1]:
+#         return "Palindrome"
+#     else:
+#         return "Not Palindrome"
 
-print(is_palindrome("madam"))
-print(is_palindrome("python"))
-
-
-def is_palindrome(s):
-    if s == s[::-1]:
-        return "palindrome"
-    else:
-        return "not palindrome"
-print(is_palindrome("madam"))
-print(is_palindrome("python"))
+# print(is_palindrome("madam"))
+# print(is_palindrome("python"))
 
 
-def is_palindrome(s):
-    if s == s[::-1]:
-        return "palindrome"
-    else:
-        return "not palindrome"
+# def is_palindrome(s):
+#     if s == s[::-1]:
+#         return "palindrome"
+#     else:
+#         return "not palindrome"
+# print(is_palindrome("madam"))
+# print(is_palindrome("python"))
+
+
+# def is_palindrome(s):
+#     if s == s[::-1]:
+#         return "palindrome"
+#     else:
+#         return "not palindrome"
     
-print(is_palindrome("radar"))
-print(is_palindrome("hello"))
+# print(is_palindrome("radar"))
+# print(is_palindrome("hello"))
 
 
     
-def is_palindrome(s):
-    if s == s[::-1]:
-        return "palindrome"
-    else:
-        return "not palindrome"
-print(is_palindrome("level"))
-print(is_palindrome("world"))  
+# def is_palindrome(s):
+#     if s == s[::-1]:
+#         return "palindrome"
+#     else:
+#         return "not palindrome"
+# print(is_palindrome("level"))
+# print(is_palindrome("world"))  
 
 
-def is_values_in_list(value):
-    my_list = [1, 2, 3, 4, 5]
-    if value in my_list:
-        return True
-    else:
-        return False    
-print(is_values_in_list(3))
-
-
-
-
-def greet(mfunction):
-    print("hello"+ mfunction)
-greet("pavan")
-print("welcome to python")
-greet("rohith")
-print("welcome to gitam university")
-def greet(mfunction):
-    print("hello"+ mfunction)
-greet("pavan")
-print("welcome to python")
-greet("rohith")
-print("welcome to gitam university")       
+# def is_values_in_list(value):
+#     my_list = [1, 2, 3, 4, 5]
+#     if value in my_list:
+#         return True
+#     else:
+#         return False    
+# print(is_values_in_list(3))
 
 
 
 
-def my_function():
-  print("Hello from a function")
+# def greet(mfunction):
+#     print("hello"+ mfunction)
+# greet("pavan")
+# print("welcome to python")
+# greet("rohith")
+# print("welcome to gitam university")
+# def greet(mfunction):
+#     print("hello"+ mfunction)
+# greet("pavan")
+# print("welcome to python")
+# greet("rohith")
+# print("welcome to gitam university")       
 
-my_function()
-my_function()
-my_function()
 
 
 
-def my_function():
-    print("hello from a function")
-my_function()
+# def my_function():
+#   print("Hello from a function")
+
+# my_function()
+# my_function()
+# my_function()
 
 
-a=int(input("enter a palindrome number "))
 
-if a == a[::-1]:
+# def my_function():
+#     print("hello from a function")
+# my_function()
+
+
+# a=int(input("enter a palindrome number "))
+
+# if a == a[::-1]:
+#     print("the number is palindrome")
+# else:
+#     print("the number is not a palindrome")
+    
+    
+#     a=int(input("enter a even number"))
+#     b=int(input("enter a odd number"))
+    
+#     if a%2==0:
+#         print("the number is even")
+#     else:
+#         print("the number is odd")
+    
+
+
+# a=int(input("enter a even number"))
+# b=int(input("enter a odd number"))
+# if a%2==0:
+#     print("the number is even")
+# else:
+#     print("the number is odd")
+    
+    
+    
+# numbers = [10, 20, 30, 40, 50]
+
+
+# target = 30
+# if target in numbers:
+#     print("Target found in the list")
+# else:
+#     print("Target not found in the list")
+    
+    
+# numbers = [10,30,50,70,90,110,130]
+# target = 70
+# if target in numbers:
+#     print("target found in the list")
+# else:
+#     print("target not found in the list")
+    
+    
+# numbers = [15,25,35,45,55,65]
+# target = 45
+# if target in numbers:
+#     print("target found in the list")
+# else:
+#     print("target not found in the list")
+    
+  
+
+# numbers = [5,15,25,35,45,55,65]
+# target = 25
+# if target in numbers:
+#     print("target found in the list") 
+# else:
+#      print("target not found in the list")   
+     
+     
+     
+# num=int(input("enter a number"))
+# if num>0:
+#     print("the number is positive")
+# elif num<0:
+#     print("the number is negative")
+# else:
+#     print("the number is zero")
+
+# a=int(input("enter  number"))
+# b=int(input("enter number"))
+# c=int(input("enter  number"))
+
+# if a>b and a>c:
+#     print("a is greater")
+# elif b>a and b>c:
+#     print("b is greater")
+# else:
+#     print("c is greater")
+    
+
+num=int(input("enter a number"))
+if num == num[::-1]:
     print("the number is palindrome")
 else:
     print("the number is not a palindrome")
     
-    
-    a=int(input("enter a even number"))
-    b=int(input("enter a odd number"))
-    
-    if a%2==0:
-        print("the number is even")
-    else:
-        print("the number is odd")
+
+num = int(input())
+rev = 0
+while num > 0:
+    rev = rev * 10 + num % 10
+    num //= 10
+print(rev)
+
+num=int(input())
+rev=0
+while num >0:
+    rev=rev*10 + num %10
+    num //=10
+print(rev) 
+
+num=int(input("enter number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+print(rev)
+
+
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10 
+print(rev)
+
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10+ num %10
+    num //=10
+    print(rev)
     
 
 
-a=int(input("enter a even number"))
-b=int(input("enter a odd number"))
-if a%2==0:
-    print("the number is even")
-else:
-    print("the number is odd")
-    
-    
-    
-numbers = [10, 20, 30, 40, 50]
-
-
-target = 30
-if target in numbers:
-    print("Target found in the list")
-else:
-    print("Target not found in the list")
-    
-    
-numbers = [10,30,50,70,90,110,130]
-target = 70
-if target in numbers:
-    print("target found in the list")
-else:
-    print("target not found in the list")
