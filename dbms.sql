@@ -1,0 +1,34 @@
+CREATE TABLE Employees (
+    emp_id INT PRIMARY KEY,
+    emp_name VARCHAR(50),
+    age INT,
+    department VARCHAR(50),
+    salary DECIMAL(10,2),
+    join_date DATE
+);
+INSERT INTO Employees VALUES
+(101, 'Rohith', 22, 'IT', 35000.00, '2024-06-15'),
+(102, 'Anjali', 25, 'HR', 30000.00, '2023-09-10'),
+(103, 'Kiran', 28, 'Finance', 40000.00, '2022-12-01'),
+(104, 'Sneha', 24, 'Marketing', 32000.00, '2024-01-20');
+SELECT * FROM Employees WHERE age > 24;
+UPDATE Employees SET salary = salary * 1.1 WHERE department = 'IT';
+DELETE FROM Employees WHERE emp_id = 102;       
+    SELECT * FROM Employees;
+
+
+create table staff list (
+    staff_id int primary key,
+    staff_name varachar(50),
+    position varchar(50),
+    hire_date date
+    salary decimal (10,2)
+):
+INSER INTO Employees VALUES
+(222,'Rohith','Manager','01/12/2002',50000.00)
+(223,'Anjali','Assistant','15/03/2020',40000.00)
+(224,'Kiran','Clerk','20/07/2019',35000.00)
+(225,'Sneha','Executive','05/11/2021',45000.00);
+SELECT * FROM staff_list WHERE position = 'Manager';
+UPDATE staff_list SET salary = salary + 5000 WHERE staff_id = 223;
+DELETE FROM staff_list WHERE staff_id = 224;       
