@@ -1361,4 +1361,340 @@ rev=0
 while num>0:    
     rev=rev*10 + num %10
     num //=10
-    print(rev)          
+    print(rev) 
+    
+    
+#python basic programs 
+
+n=int(input("enter a number"))
+for i in range (2,n):
+    if n%i==0:
+        print("not a prime number")
+        break
+else:
+    print("prime number")
+    
+    
+n=int(input("enterv a number"))
+for i in range(2,n):
+    if n%i==0:
+        print("not a prime number")
+        break
+    else:
+        print("prime number")
+        
+
+n=int(input("enter a number"))
+for i in range(2,n):
+    if n%i==0:
+        print("not a prime number")
+        break
+    else:
+        print("prime number")
+        
+        
+        
+n=int(input("enter a number"))
+for i in range (2,n):
+    if n%i==0:
+        print("not a prime number")
+        break
+    else:
+        print("prime number")
+        
+        
+n=int(input("enter a number"))
+for i in range (2,n):
+    if n%i==0:
+        print("not a prime  number")
+        break
+    else:
+        print("prime number")
+    
+    
+n=int(input("enter a number"))
+for i in range (2,n):
+    if n%i==0:
+        print("not a prime number")
+        break
+    else:
+        print("prime number")
+        
+n=int(input("enter a number"))
+for i in range (2,n):
+    if n%i==0:
+        print("not a prime number")
+        break
+    else:
+        print("prime number")
+        
+        
+        
+n=int(input("enter a number"))
+for i in range (2,n):
+    if n%i==0:
+        print("not a prime number")
+        break
+    else:
+        print("prime number")
+        
+        
+        
+n=int(input("enter a number"))
+fact =1
+for i in range (1,n+1):
+    fact *= i
+    print("fact")
+    
+n=int(input("enter a number"))
+fact=1
+for i in range (1,n+1):
+    fact *=i
+    print("fact")
+    
+n=int(input("enter a number"))
+fact=1
+for i in range (1,n+1):
+    fact *=i
+    print("fact")
+    
+    
+n=int(input("enter a number"))
+fact=1
+for i in range (1,n+1):
+    fact *=i
+    print('fact')
+    
+
+
+n=int(input("enter a number"))
+fact=1
+for i in range (1,n+1):
+    fact *=i
+    print("fact")
+    
+
+n=int(input("enter a number"))
+for i in range (2,n):
+    if n%i==0:
+        print("not a prime number")
+        break
+    else:
+        print("prime number")
+        
+        
+n=int(input("enter a number"))
+fact=1
+for i in range (1,n+1):
+    fact *=i
+    print("fact")
+
+
+
+
+n=int(input("enter a number"))
+fact=1
+for i in range (1,n+1):
+    fact *=i
+    print("fact", fact)
+    
+    
+n=int(input("enter a number"))
+fact=1
+for i in range (1,n+1):
+    fact *=i
+    print("fact")
+    
+    
+    
+n=int(input("enter a number"))
+fact=1
+for i in range (1,n+1):
+    fact *=i
+    print("fact", fact)
+    
+
+n=int(input("enter a number"))
+fact=1
+for i in range (1,n+1):
+    fact *=i
+    print("fact", fact)
+    
+n=int(input("enter a number"))
+fact=1
+for i in range (1,n+1):
+    fact *=i
+    print("fact", fact)
+    
+    
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+    
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+    
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+    
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+    
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+    
+    
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev
+    
+    
+    
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+    
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+    
+
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+
+
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+    
+    
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+    
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+    
+    
+    
+num=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + num %10
+    num //=10
+    print(rev)
+    
+    
+    
+a=int(input("enter a number"))
+rev=0
+while a>0:
+    rev=rev*10 + a%10
+    a//=10
+    print(rev)
+    
+    
+a=int(input("enter a number"))
+rev=0
+while a>0:
+    rev=rev*10 +a%10
+    a//=10
+    print(rev)
+    
+a=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev*10 + a%10
+    a//=10
+    print(rev)
+    
+a=int(input("enter a number"))
+rev=0
+while num>0:
+    rev=rev10+ a%10
+    a//=10
+    print(rev)
+    
+    
+a=int(input("enter a number"))
+num=0
+while a>0:
+    rev=rev*10 +a%10
+    a//=10
+    print(rev)
+    
+
+n=int(input("enter a number"))
+fact=1
+for i in range (1,n+1):
+    fact *=i
+    print('fact')
+    
+    
+n=int(input("enter a number"))
+fact=1
+for i in range  (1,n+1):
+    fact *=i
+    print("fact")
+
+    
+    
