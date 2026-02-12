@@ -1186,515 +1186,574 @@
 #     print("c is greater")
     
 
-num=int(input("enter a number"))
-if num == num[::-1]:
-    print("the number is palindrome")
-else:
-    print("the number is not a palindrome")
+# num=int(input("enter a number"))
+# if num == num[::-1]:
+#     print("the number is palindrome")
+# else:
+#     print("the number is not a palindrome")
     
 
-num = int(input())
-rev = 0
-while num > 0:
-    rev = rev * 10 + num % 10
-    num //= 10
-print(rev)
+# num = int(input())
+# rev = 0
+# while num > 0:
+#     rev = rev * 10 + num % 10
+#     num //= 10
+# print(rev)
 
-num=int(input())
-rev=0
-while num >0:
-    rev=rev*10 + num %10
-    num //=10
-print(rev) 
+# num=int(input())
+# rev=0
+# while num >0:
+#     rev=rev*10 + num %10
+#     num //=10
+# print(rev) 
 
-num=int(input("enter number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-print(rev)
+# num=int(input("enter number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+# print(rev)
 
 
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10 
-print(rev)
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10 
+# print(rev)
 
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10+ num %10
-    num //=10
-    print(rev)
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10+ num %10
+#     num //=10
+#     print(rev)
     
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
 
 
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
 
 
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-    
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-
-
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num%10
-    num //=10
-    print(rev)
-
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
     
     
-num=int(input("enter number"))
-rev=0
-while num>0:
-    rev=rev*10 +num %10
-    num //=10
-    print(rev)
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
+
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
 
 
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 +num %10
-    num //=10
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num%10
+#     num //=10
+#     print(rev)
 
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num%10
-    num //=10
-    print(rev)
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
     
     
-num=int(input("enter a  number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-    
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 +num %10
-    num //=10
-    print(rev)
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
+# num=int(input("enter number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 +num %10
+#     num //=10
+#     print(rev)
 
 
-num=int(input("enter a number"))
-rev=0
-while num>0:6
-rev=rev*10 +num %10
-num //=10
-print(rev)
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 +num %10
+#     num //=10
 
-num=int(input("enter a number"))
-rev=0
-while num>0:    
-    rev=rev*10 + num %10
-    num //=10
-    print(rev) 
-    
-    
-#python basic programs 
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
 
-n=int(input("enter a number"))
-for i in range (2,n):
-    if n%i==0:
-        print("not a prime number")
-        break
-else:
-    print("prime number")
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num%10
+#     num //=10
+#     print(rev)
     
     
-n=int(input("enterv a number"))
-for i in range(2,n):
-    if n%i==0:
-        print("not a prime number")
-        break
-    else:
-        print("prime number")
+# num=int(input("enter a  number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
+    
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
+    
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
+    
+    
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 +num %10
+#     num //=10
+#     print(rev)
+    
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
+
+
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:6
+# rev=rev*10 +num %10
+# num //=10
+# print(rev)
+
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:    
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev) 
+    
+    
+# #python basic programs 
+
+# n=int(input("enter a number"))
+# for i in range (2,n):
+#     if n%i==0:
+#         print("not a prime number")
+#         break
+# else:
+#     print("prime number")
+    
+    
+# n=int(input("enterv a number"))
+# for i in range(2,n):
+#     if n%i==0:
+#         print("not a prime number")
+#         break
+#     else:
+#         print("prime number")
         
 
-n=int(input("enter a number"))
-for i in range(2,n):
-    if n%i==0:
-        print("not a prime number")
-        break
-    else:
-        print("prime number")
-        
-        
-        
-n=int(input("enter a number"))
-for i in range (2,n):
-    if n%i==0:
-        print("not a prime number")
-        break
-    else:
-        print("prime number")
-        
-        
-n=int(input("enter a number"))
-for i in range (2,n):
-    if n%i==0:
-        print("not a prime  number")
-        break
-    else:
-        print("prime number")
-    
-    
-n=int(input("enter a number"))
-for i in range (2,n):
-    if n%i==0:
-        print("not a prime number")
-        break
-    else:
-        print("prime number")
-        
-n=int(input("enter a number"))
-for i in range (2,n):
-    if n%i==0:
-        print("not a prime number")
-        break
-    else:
-        print("prime number")
+# n=int(input("enter a number"))
+# for i in range(2,n):
+#     if n%i==0:
+#         print("not a prime number")
+#         break
+#     else:
+#         print("prime number")
         
         
         
-n=int(input("enter a number"))
-for i in range (2,n):
-    if n%i==0:
-        print("not a prime number")
-        break
-    else:
-        print("prime number")
+# n=int(input("enter a number"))
+# for i in range (2,n):
+#     if n%i==0:
+#         print("not a prime number")
+#         break
+#     else:
+#         print("prime number")
+        
+        
+# n=int(input("enter a number"))
+# for i in range (2,n):
+#     if n%i==0:
+#         print("not a prime  number")
+#         break
+#     else:
+#         print("prime number")
+    
+    
+# n=int(input("enter a number"))
+# for i in range (2,n):
+#     if n%i==0:
+#         print("not a prime number")
+#         break
+#     else:
+#         print("prime number")
+        
+# n=int(input("enter a number"))
+# for i in range (2,n):
+#     if n%i==0:
+#         print("not a prime number")
+#         break
+#     else:
+#         print("prime number")
         
         
         
-n=int(input("enter a number"))
-fact =1
-for i in range (1,n+1):
-    fact *= i
-    print("fact")
-    
-n=int(input("enter a number"))
-fact=1
-for i in range (1,n+1):
-    fact *=i
-    print("fact")
-    
-n=int(input("enter a number"))
-fact=1
-for i in range (1,n+1):
-    fact *=i
-    print("fact")
-    
-    
-n=int(input("enter a number"))
-fact=1
-for i in range (1,n+1):
-    fact *=i
-    print('fact')
-    
-
-
-n=int(input("enter a number"))
-fact=1
-for i in range (1,n+1):
-    fact *=i
-    print("fact")
-    
-
-n=int(input("enter a number"))
-for i in range (2,n):
-    if n%i==0:
-        print("not a prime number")
-        break
-    else:
-        print("prime number")
+# n=int(input("enter a number"))
+# for i in range (2,n):
+#     if n%i==0:
+#         print("not a prime number")
+#         break
+#     else:
+#         print("prime number")
         
         
-n=int(input("enter a number"))
-fact=1
-for i in range (1,n+1):
-    fact *=i
-    print("fact")
+        
+# n=int(input("enter a number"))
+# fact =1
+# for i in range (1,n+1):
+#     fact *= i
+#     print("fact")
+    
+# n=int(input("enter a number"))
+# fact=1
+# for i in range (1,n+1):
+#     fact *=i
+#     print("fact")
+    
+# n=int(input("enter a number"))
+# fact=1
+# for i in range (1,n+1):
+#     fact *=i
+#     print("fact")
+    
+    
+# n=int(input("enter a number"))
+# fact=1
+# for i in range (1,n+1):
+#     fact *=i
+#     print('fact')
+    
+
+
+# n=int(input("enter a number"))
+# fact=1
+# for i in range (1,n+1):
+#     fact *=i
+#     print("fact")
+    
+
+# n=int(input("enter a number"))
+# for i in range (2,n):
+#     if n%i==0:
+#         print("not a prime number")
+#         break
+#     else:
+#         print("prime number")
+        
+        
+# n=int(input("enter a number"))
+# fact=1
+# for i in range (1,n+1):
+#     fact *=i
+#     print("fact")
 
 
 
 
-n=int(input("enter a number"))
-fact=1
-for i in range (1,n+1):
-    fact *=i
-    print("fact", fact)
+# n=int(input("enter a number"))
+# fact=1
+# for i in range (1,n+1):
+#     fact *=i
+#     print("fact", fact)
     
     
-n=int(input("enter a number"))
-fact=1
-for i in range (1,n+1):
-    fact *=i
-    print("fact")
-    
-    
-    
-n=int(input("enter a number"))
-fact=1
-for i in range (1,n+1):
-    fact *=i
-    print("fact", fact)
-    
-
-n=int(input("enter a number"))
-fact=1
-for i in range (1,n+1):
-    fact *=i
-    print("fact", fact)
-    
-n=int(input("enter a number"))
-fact=1
-for i in range (1,n+1):
-    fact *=i
-    print("fact", fact)
-    
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-    
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev
+# n=int(input("enter a number"))
+# fact=1
+# for i in range (1,n+1):
+#     fact *=i
+#     print("fact")
     
     
     
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
+# n=int(input("enter a number"))
+# fact=1
+# for i in range (1,n+1):
+#     fact *=i
+#     print("fact", fact)
     
 
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
+# n=int(input("enter a number"))
+# fact=1
+# for i in range (1,n+1):
+#     fact *=i
+#     print("fact", fact)
+    
+# n=int(input("enter a number"))
+# fact=1
+# for i in range (1,n+1):
+#     fact *=i
+#     print("fact", fact)
+    
+    
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
+    
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
+    
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
+    
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
 
-
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
+    
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
     
     
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev
     
     
     
-num=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + num %10
-    num //=10
-    print(rev)
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
     
-    
-    
-a=int(input("enter a number"))
-rev=0
-while a>0:
-    rev=rev*10 + a%10
-    a//=10
-    print(rev)
-    
-    
-a=int(input("enter a number"))
-rev=0
-while a>0:
-    rev=rev*10 +a%10
-    a//=10
-    print(rev)
-    
-a=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev*10 + a%10
-    a//=10
-    print(rev)
-    
-a=int(input("enter a number"))
-rev=0
-while num>0:
-    rev=rev10+ a%10
-    a//=10
-    print(rev)
-    
-    
-a=int(input("enter a number"))
-num=0
-while a>0:
-    rev=rev*10 +a%10
-    a//=10
-    print(rev)
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
     
 
-n=int(input("enter a number"))
-fact=1
-for i in range (1,n+1):
-    fact *=i
-    print('fact')
-    
-    
-n=int(input("enter a number"))
-fact=1
-for i in range  (1,n+1):
-    fact *=i
-    print("fact")
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
 
+
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
     
+    
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
+
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
+    
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+    
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
+    
+    
+    
+# num=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + num %10
+#     num //=10
+#     print(rev)
+    
+    
+    
+# a=int(input("enter a number"))
+# rev=0
+# while a>0:
+#     rev=rev*10 + a%10
+#     a//=10
+#     print(rev)
+    
+    
+# a=int(input("enter a number"))
+# rev=0
+# while a>0:
+#     rev=rev*10 +a%10
+#     a//=10
+#     print(rev)
+    
+# a=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev*10 + a%10
+#     a//=10
+#     print(rev)
+    
+# a=int(input("enter a number"))
+# rev=0
+# while num>0:
+#     rev=rev10+ a%10
+#     a//=10
+#     print(rev)
+    
+    
+# a=int(input("enter a number"))
+# num=0
+# while a>0:
+#     rev=rev*10 +a%10
+#     a//=10
+#     print(rev)
+    
+
+# n=int(input("enter a number"))
+# fact=1
+# for i in range (1,n+1):
+#     fact *=i
+#     print('fact')
+    
+    
+# n=int(input("enter a number"))
+# fact=1
+# for i in range  (1,n+1):
+#     fact *=i
+#     print("fact")
+    
+    
+
+
+
+# class mobile:
+#     def __init__(self,brand,mobile,price,color):
+#         self.brand=brand
+#         self.mobile=mobile
+#         self.price=price
+#         self.color=color
+#     def show_details(self):
+#         print("brand:",self.brand)
+#         print("mobile:",self.mobile)
+#         print("price:",self.price)
+#         print("color:",self.color)
+
+# mobile1=mobile("apple","iphone 14 pro max",150000,"silver")
+# mobile1.show_details()
+
+
+
+
+# class BankAccount:
+#     def __init__(self, balance):
+#         self.balance = balance
+
+#     def deposit(self, amount):
+#         self.balance += amount
+#         print(f"Deposited {amount}. New balance: {self.balance}")
+
+#     def withdraw(self, amount):
+#         if self.balance >= amount:
+#             self.balance -= amount
+#             print(f"Withdrew {amount}. New balance: {self.balance}")
+#         else:
+#             print("Insufficient funds.")
+
+#     def get_balance(self):
+#         return self.balance
+    
+    
+from datetime import datetime
+
+
+class BanKAccount:
+    def __init__(self, balance):
+        self.balance = balance
+        
+    def deposit(self,amount):
+        self.balance += amount
+        print(f"Deposited {amount}. New balance: {self.balance}")
+        
+    def withdrawl(self,amount):
+        if self.balance >= amount:
+            self.balance -= amount
+            print(f"Withdrew {amount}. New balance: {self.balance}")
+        else:   
+            print("Insufficient funds.")        
+    def get_balance(self):
+        return self.balance
     
